@@ -1,0 +1,11 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.rulers": [
+        88
+    ],
+    "editor.wordWrap": "on",
+    "terminal.integrated.defaultProfile.linux": "bash"
+}
