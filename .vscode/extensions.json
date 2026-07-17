@@ -20,6 +20,7 @@
     "github.vscode-github-actions",
     "janisdd.vscode-edit-csv",
     "hediet.vscode-drawio",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "ms-vscode.powershell"
   ]
 }
