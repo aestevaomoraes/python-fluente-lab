@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "github.copilot",
+    "github.copilot-chat",
+    "openai.chatgpt",
+    "charliermarsh.ruff",
+    "ms-python.black-formatter",
+    "yzhang.markdown-all-in-one",
+    "eamodio.gitlens",
+    "usernamehw.errorlens",
+    "mechatroner.rainbow-csv",
+    "redhat.vscode-yaml",
+    "ms-azuretools.vscode-docker",
+    "editorconfig.editorconfig",
+    "ms-mssql.mssql",
+    "ms-vscode-remote.remote-containers",
+    "alexcvzz.vscode-sqlite",
+    "github.vscode-github-actions",
+    "janisdd.vscode-edit-csv",
+    "hediet.vscode-drawio",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
