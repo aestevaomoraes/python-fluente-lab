@@ -1,8 +1,12 @@
 {
+  // ==========================================================
+  // Arquivos
+  // ==========================================================
   "files.encoding": "utf8",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "files.exclude": {
     "**/__pycache__": true,
     "**/.ipynb_checkpoints": true,
@@ -10,29 +14,67 @@
     "**/.pytest_cache": true,
     "**/.ruff_cache": true
   },
+  // ==========================================================
+  // Editor
+  // ==========================================================
   "editor.formatOnSave": true,
   "editor.tabSize": 4,
-  "editor.rulers": [
-    88
-  ],
   "editor.wordWrap": "off",
-  "editor.wordWrapColumn": 100,
-  "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.autoImportCompletions": true,
-  "ruff.lint.run": "onType",
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "git.autofetch": true,
-  "git.confirmSync": true,
-  "git.enableSmartCommit": false,
-  "jupyter.notebookFileRoot": "${workspaceFolder}",
-  "notebook.output.textLineLimit": 200,
-  "editor.renderWhitespace": "selection",
+  "editor.rulers": [],
   "editor.minimap.enabled": false,
-  "explorer.confirmDelete": true,
-  "explorer.confirmDragAndDrop": true,
+  "editor.renderWhitespace": "selection",
   "editor.guides.indentation": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.stickyScroll.enabled": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorSurroundingLines": 3,
+  "editor.cursorStyle": "line",
+  "editor.renderLineHighlight": "all",
+  "editor.selectionHighlight": true,
+  "editor.occurrencesHighlight": "singleFile",
+  "editor.smoothScrolling": true,
+  "editor.fontLigatures": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  // ==========================================================
+  // Explorer
+  // ==========================================================
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.compactFolders": false,
+  // ==========================================================
+  // Git
+  // ==========================================================
+  "git.autofetch": true,
+  "git.confirmSync": true,
+  "git.enableSmartCommit": false,
+  // ==========================================================
+  // Terminal
+  // ==========================================================
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.scrollback": 10000,
+  // ==========================================================
+  // Workbench
+  // ==========================================================
+  "workbench.editor.enablePreview": false,
+  // ==========================================================
+  // Python
+  // ==========================================================
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  // ==========================================================
+  // Ruff
+  // ==========================================================
+  "ruff.lint.run": "onType",
+  // ==========================================================
+  // Jupyter
+  // ==========================================================
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "notebook.output.textLineLimit": 200,
+  "notebook.lineNumbers": "on",
+  // ==========================================================
+  // Configuração Python
+  // ==========================================================
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.codeActionsOnSave": {
@@ -40,13 +82,15 @@
       "source.organizeImports": "explicit"
     }
   },
+  // ==========================================================
+  // Configuração Markdown
+  // ==========================================================
   "[markdown]": {
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "editor.quickSuggestions": {
       "other": true,
       "comments": false,
       "strings": false
-
     }
   }
 }
